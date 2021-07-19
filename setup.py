@@ -59,7 +59,7 @@ setup(
     name='ffmpeg-python',
     packages=['ffmpeg', 'ffmpeg.third_part'],
     include_package_data=True,
-    package_data={'ffmpeg.third_part': ['*.exe']},
+    package_data={'ffmpeg.third_part': ['ff*']},
     setup_requires=['pytest-runner'],
     version=version,
     description='Python bindings for FFmpeg fv soft',
